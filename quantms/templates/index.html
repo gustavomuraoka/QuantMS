@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block contents %}
+<main>
+    <div style="text-align: center;">
+        <p style="font-family: 'Courier New', Courier, monospace; font-size: large; margin-top: 5%;">
+            <b> Quant MS </b> 
+        </p>
+    
+        <p>
+            Explore over 400 stocks listed at the brazilian stock market and get their data plotted in graphs that may help you to trade!
+        </p>
+    </div>
+
+    <div style="margin: auto; text-align: center; margin-top: 5%;">
+        <form action="#" method="POST">
+            <input type="text" placeholder = "Ticker"  id = "ticker" name = "ticker" required>
+            <input type="submit" value="Send!">
+        </form>
+    </div>
+
+    <div style="text-align: center; margin-top: 5%;">
+        <p>
+            Any information displayed at this website is not a investment recomendation and shouldn't be taken serious
+        </p>
+    </div>
+    
+</main>
+
+ 
+{% endblock %}

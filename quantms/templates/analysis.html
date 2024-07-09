@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block contents %}
+<main>
+
+    <div style="width: 80%; margin: auto;">
+        <div id="plotly-graph">
+            {{ div_html|safe }}
+        </div>
+    </div>
+    <div style="width: 80%; margin: auto;">
+        <p>
+            {{ bollinger_trend }}
+        </p>
+    </div>
+
+    <div style="width: 80%; margin: auto;">
+        <div id="plotly-graph">
+            {{ price_rsi|safe }}
+        </div>
+    </div>
+
+    <div style="width: 80%; margin: auto;">
+        <p>
+            {{ rsi_trend }}
+        </p>
+    </div>
+
+    <div style="width: 80%; margin: auto; margin-top: 10%;">
+        <p>
+            <b> Note: </b> All information displayed at this page are subject to error, so never forget to check all
+            your own sources before taking any action! Also, the analysis does not represent an investment recommendation!
+            You MUST be responsible for your own money.
+        </p>
+    </div>
+
+    <div class="footer" style="margin: auto; margin-top: 5%; color: lightgray; text-align: center;">
+        <p> Gustavo Muraoka Silva - 2024 </p>
+        <p> gustavomuraoka15@gmail.com </p>
+    </div>
+
+</main>
+
+{% endblock %}

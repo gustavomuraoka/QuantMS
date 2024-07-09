@@ -1,0 +1,29 @@
+/* Bootstrap Navbar customization */
+
+.bg-darkblue {
+    background-color: #17174f; /* Azul escuro */
+}
+
+.navbar-brand.text-white {
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 70%;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.nav-link {
+    text-align: right;
+}
+
+/* Index page customization */
+main {
+    width: 80%;
+    margin: auto;
+}
