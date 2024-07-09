@@ -14,6 +14,8 @@ QuantMS - How to use
 10. This should show a message in your VSCode terminal with a link to your localhost. Just in case, the standard link is 127.0.0.1:5000 for flask applications;
 11. Use the application.
 
+WARNING - If you ever get the "KeyError" at your screen while using the application, try realoading the web page, this is caused sometimes by an error with the request sent to yahoo.
+
 Any suggestions or doubts should be sent to gustavomuraoka15@gmail.com or at my linkedin https://www.linkedin.com/in/gustavo-muraoka-4256721ba/
 
 QuantMS - Como usar
@@ -29,5 +31,7 @@ QuantMS - Como usar
 9. Quando o download terminar, siga o caminho quantms/app.py e execute o arquivo app.py;
 10. Isso deve mostrar uma mensagem em seu terminal VSCode com um link para seu host local. Por precaução, o link padrão é 127.0.0.1:5000 para aplicações em flask;
 11. Use o aplicativo.
+
+Atenção - Caso o erro "KeyError" calhe de ocorrer, tente recarregar a página, esse erro ocorre as vezes devido à um erro no request enviado para o Yahoo
 
 Quaisquer sugestões ou duvidas podem ser enviadas para meu email pessoal gustavomuraoka15@gmail.com ou para meu linkedin https://www.linkedin.com/in/gustavo-muraoka-4256721ba/
